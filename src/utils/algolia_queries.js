@@ -1,6 +1,5 @@
 const postQuery = `{
-  posts: allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC},
-    ) {
+  posts: allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }){
     edges {
       node {
         objectID: id
@@ -8,11 +7,11 @@ const postQuery = `{
           slug
         }
         frontmatter {
+          title
           category
           date_timestamp: date
           date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
           description
-          title
         }
         excerpt(pruneLength: 5000)
       }
@@ -28,7 +27,6 @@ const flatten = arr =>
     ),
     ...rest,
   }))
-
 const settings = { attributesToSnippet: [`excerpt:20`] }
 
 const queries = [
