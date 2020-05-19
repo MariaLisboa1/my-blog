@@ -40,6 +40,9 @@ exports.createPages = ({graphql, actions}) => {
             fields {
               slug
             }
+            frontmatter {
+              title
+            }
           }
           previous {
             fields {
