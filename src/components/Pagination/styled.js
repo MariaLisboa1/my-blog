@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import media from "styled-media-query"
 
 export const PaginationWrapper = styled.section `
   align-items: center;
@@ -7,6 +8,7 @@ export const PaginationWrapper = styled.section `
   display: flex;
   padding: 1.5rem 3rem;
   justify-content: space-between;
+  
   a {
     color: var(--texts);
     text-decoration: none;
@@ -15,4 +17,9 @@ export const PaginationWrapper = styled.section `
       color: var(--highlight);
     }
   }
+
+  ${media.lessThan("large")`
+    font-size: .8rem;
+    padding: 1rem;
+  `}
 `
