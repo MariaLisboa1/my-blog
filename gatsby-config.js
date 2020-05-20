@@ -8,6 +8,7 @@ module.exports = {
     position: `Programadora Frontend`,
     description: `Apaixonada por todo o ecossistema Javascript. Escrevo sobre o mundo frontend e outras coisas mais.`,
     author: `@MariaLisboa1`,
+    siteUrl: `https://marialisboa.com.br`
   },
   plugins: [
     `gatsby-plugin-transition-link`,
@@ -81,5 +82,6 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-sitemap`
   ],
 }
