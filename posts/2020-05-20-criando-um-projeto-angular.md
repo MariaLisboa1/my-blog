@@ -2,10 +2,11 @@
 title: Criando um projeto Angular
 description: Irei mostrar como criar um novo projeto
 date: 2020-05-20T04:10:21.000Z
-thumbnail: assets/img/angular.png
+image: "/assets/img/angular.png"
 category: ng
 background: "#DD0031"
 ---
+
 Para criar um novo projeto no angular é simples, mas primeiro vamos instalar esse framework maravilhoso.
 
 Antes de tudo você precisa ter o Nodejs instalado na sua máquina. Para instalar basta você clicar [aqui ](https://nodejs.org/en/) e escolher a opção para o seu sistema operacional.

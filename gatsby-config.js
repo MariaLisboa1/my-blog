@@ -5,7 +5,7 @@ const queries = require("./src/utils/algolia_queries")
 module.exports = {
   siteMetadata: {
     title: `Maria Lisboa`,
-    position: `Programadora Frontend`,
+    position: `Desenvolvedora Frontend`,
     description: `Apaixonada por todo o ecossistema Javascript. Escrevo sobre o mundo frontend e outras coisas mais.`,
     author: `@MariaLisboa1`,
     siteUrl: `https://marialisboa.netlify.app/`
