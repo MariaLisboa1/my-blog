@@ -1,7 +1,7 @@
 ---
 title: Método push e pop do array
 description: Vamos aprender a usar o método pop e o push de uma maneira simples
-date: 2020-07-16 05:17:34
+date: 2020-07-16T05:17:34.000Z
 thumbnail: assets/img/angular.png
 category: js
 background: "#D6BA32"
@@ -12,13 +12,15 @@ O método pop remove o último elemento do array. Além disso, ele retorna o arr
 
 Vamos ver um exemplo:
 
-`const foods = [ "bean", "rice", "beef" ];`
+```javascript
+const foods = [ "bean", "rice", "beef" ];
 
-`const beef = foods.pop();`
+const beef = foods.pop();
 
-`console.log(beef);`
+console.log(beef);
 
-`// 'beef'`
+// 'beef'
+```
 
 Vemos que ele remove o último elemento e retorna o elemento removido.
 
@@ -26,14 +28,16 @@ Vemos que ele remove o último elemento e retorna o elemento removido.
 
 Diferente do pop, o push adiciona um novo dado no final do array. Ele modifica o array principal. E ele retorna o novo valor da propriedade length do array.
 
-`const foods = [ "bean", "rice", "beef" ];`
+```javascript
+const foods = [ "bean", "rice", "beef" ];
 
-`const newLength = foods.push("chicken");`
+const newLength = foods.push("chicken");
 
-`console.log( newLength );`
+console.log( newLength );
 
-`// 3`
+// 3
 
-`console.log( foods );`
+console.log( foods );
 
-`// [ "bean", "rice", "beef", "chicken" ];`
+// [ "bean", "rice", "beef", "chicken" ];
+```
