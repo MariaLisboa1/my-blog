@@ -6,8 +6,6 @@ thumbnail: assets/img/angular.png
 category: js
 background: "#D6BA32"
 ---
-
-
 ## Método pop
 
 O método pop remove o último elemento do array. Além disso, ele retorna o array removido, caso queira usar.
@@ -43,5 +41,3 @@ console.log( foods );
 
 // [ "bean", "rice", "beef", "chicken" ];
 ```
-
-``
