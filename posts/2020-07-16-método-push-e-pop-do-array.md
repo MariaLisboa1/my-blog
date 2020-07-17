@@ -14,12 +14,13 @@ Vamos ver um exemplo:
 
 ```javascript
 const foods = [ "bean", "rice", "beef" ];
-
 const beef = foods.pop();
 
 console.log(beef);
-
 // 'beef'
+
+console.log(foods);
+// ["bean","rice"]
 ```
 
 Vemos que ele remove o último elemento e retorna o elemento removido.
@@ -30,14 +31,11 @@ Diferente do pop, o push adiciona um novo dado no final do array. Ele modifica o
 
 ```javascript
 const foods = [ "bean", "rice", "beef" ];
-
 const newLength = foods.push("chicken");
 
 console.log( newLength );
-
 // 3
 
 console.log( foods );
-
 // [ "bean", "rice", "beef", "chicken" ];
 ```
