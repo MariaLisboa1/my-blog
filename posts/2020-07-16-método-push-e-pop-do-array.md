@@ -8,7 +8,7 @@ background: "#D6BA32"
 ---
 ## Método pop
 
-O método pop remove o último elemento do array. Além disso, ele retorna o array removido, caso queira usar.
+O método pop remove o último elemento do array. Além disso, ele retorna o elemento removido do array, caso queira usar.
 
 Vamos ver um exemplo:
 
